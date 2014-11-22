@@ -1,8 +1,4 @@
 {
 	
-	"directory": "bower_components",
-	"registry": "http://bower.herokuapp.com",
-	"proxy":"http://proxy.wellsfargo.com:8080",
-	"https-proxy":"http://proxy.wellsfargo.com:8080",
-	"strict-ssl": false
+	"directory": "bower_components"
 }
