@@ -2,7 +2,7 @@
 
 describe('angularjs homepage', function() {
   it('should greet the named user', function() {
-    browser.get('http://www.angularjs.org');
+    browser.get('https://angularjs.org');
 
     element(by.model('yourName')).sendKeys('Julie');
 
@@ -15,7 +15,7 @@ describe('angularjs homepage', function() {
     var todoList;
 
     beforeEach(function() {
-      browser.get('http://www.angularjs.org');
+      browser.get('https://angularjs.org/');
 
       todoList = element.all(by.repeater('todo in todos'));
     });
